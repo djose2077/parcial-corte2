@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Ejecutar Parcial 2",
+            "request": "launch",
+            "mainClass": "co.edu.poli.parcial2_jose.vista.App",
+            "projectName": "parcial2"
+        }
+    ]
+}
