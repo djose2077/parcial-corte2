@@ -1,7 +1,7 @@
 # Gestión de Tarjetas — JavaFX + MySQL
 
 Aplicación de escritorio para crear y consultar tarjetas de débito y crédito
-asociadas a un titular. Proyecto del Parcial Corte 2 de Practica aplicada a sistemas.
+asociadas a un titular. Proyecto del Parcial Corte 2 de Practica aplicada de sistemas.
 
 **Autor:** José — Politécnico Grancolombiano
 
@@ -106,15 +106,13 @@ La evidencia generada se guarda en
 
 ## Documentación
 
-- **Javadoc:** abre [docs/javadoc/index.html](./docs/javadoc/index.html).
-- Para regenerar el Javadoc:
-
-  ```powershell
-  mvn javadoc:javadoc
-  ```
-
-- **Script de base de datos:** [parcial_tarjetas_jose.sql](./parcial_tarjetas_jose.sql).
-- **Wiki:** UML actualizado y video de evidencia: _agregar aquí el enlace a la wiki_.
+- **JavaDoc (en línea):** https://djose2077.github.io/parcial-corte2/javadoc/index.html
+  - También está en el repo: [docs/javadoc](https://github.com/djose2077/parcial-corte2/tree/main/docs/javadoc)
+  - Para regenerarlo: `mvn javadoc:javadoc`
+- **Script de base de datos:** [parcial_tarjetas_jose.sql](https://github.com/djose2077/parcial-corte2/blob/main/parcial_tarjetas_jose.sql)
+- **Wiki** (UML actualizado y video de evidencia): https://github.com/djose2077/parcial-corte2/wiki
+- **Video de evidencia:** _pega aquí el enlace cuando lo subas_
+- **Evidencia de pruebas:** [docs/evidencia-pruebas.txt](https://github.com/djose2077/parcial-corte2/blob/main/docs/evidencia-pruebas.txt)
 
 ## Estructura del proyecto
 
@@ -238,6 +236,7 @@ DAOTitular ..> ConexionBD : obtiene conexión
 DAOTarjeta ..> Debito : crea / lee
 DAOTarjeta ..> Credito : crea / lee
 ```
+![Diagrama de clases HU-01](Digrama_UML.png)
 
 ## Uso de herramientas de inteligencia artificial
 
