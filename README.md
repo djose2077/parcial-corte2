@@ -60,7 +60,7 @@ el modelo, la base de datos, el DAO, la interfaz y pruebas unitarias y de integr
    DB_PASSWORD=tu_contrasena
    ```
 
-3. No publiques ni compartas el contenido real de `.env`; contiene credenciales y está excluido del control de versiones.
+3.
 
 > El script inserta titulares y tarjetas de ejemplo. Aunque crea las tablas con
 > `IF NOT EXISTS`, los `INSERT` de ejemplo no son idempotentes: no lo vuelvas a
@@ -111,7 +111,7 @@ La evidencia generada se guarda en
   - Para regenerarlo: `mvn javadoc:javadoc`
 - **Script de base de datos:** [parcial_tarjetas_jose.sql](https://github.com/djose2077/parcial-corte2/blob/main/parcial_tarjetas_jose.sql)
 - **Wiki** (UML actualizado y video de evidencia): https://github.com/djose2077/parcial-corte2/wiki
-- **Video de evidencia:** _pega aquí el enlace cuando lo subas_
+- **Video de evidencia:**https://youtu.be/yLEs0JdeHbk?si=cZimNJqRWFl1OCy7
 - **Evidencia de pruebas:** [docs/evidencia-pruebas.txt](https://github.com/djose2077/parcial-corte2/blob/main/docs/evidencia-pruebas.txt)
 
 ## Estructura del proyecto
